@@ -1,0 +1,13 @@
+type Query{
+    photografs: [Photografs]
+
+}
+type Photografs{
+    id: ID!
+    name: String!
+    client: [Client]
+}
+type Client{
+    id: ID!
+    name: String!
+}
